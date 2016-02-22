@@ -2,7 +2,7 @@
 
 Dim fso, folder, data,
 Set fso = createobject("Scripting.Filesystemobject")
-Set folder = fso.Getfolder("C:\users\satoei1\desktop")
+Set folder = fso.Getfolder("C:\users\user name\desktop")
 
 Data = "Attributes : " & folder.attributes &vbLf
 Data = Data & "DataCreated : " & folder.DateCreated &vbLf
